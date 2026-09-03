@@ -1,0 +1,28 @@
+/* 408-TECH-APPOINTMENT-1.1 — calm, readable steps before secure booking. */
+[data-tech-progressive="true"] .tech-progress{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:.5rem .85rem;margin:0 0 1.4rem}
+[data-tech-progressive="true"] .tech-progress__label{color:#456078;font-size:.78rem;font-weight:850;letter-spacing:.03em;white-space:nowrap}
+[data-tech-progressive="true"] .tech-progress__track{height:8px;border-radius:999px;background:#e5ebf2;overflow:hidden}
+[data-tech-progressive="true"] .tech-progress__track>span{display:block;width:20%;height:100%;border-radius:inherit;background:#168c52;transition:width .2s ease}
+[data-tech-progressive="true"] .tech-progress>strong{grid-column:1/-1;color:#153a65;font-size:.84rem;font-weight:750}
+.tech-choice-step{border:0;padding:0;margin:0;min-width:0}
+.tech-choice-step[hidden]{display:none!important}
+.tech-choice-step legend{font-size:clamp(1.55rem,5vw,2.25rem);line-height:1.04;font-weight:850;color:#061f48;padding:0;margin:0 0 .55rem}
+.tech-choice-step>p{color:#5e6c80;margin:0 0 1.15rem}
+.tech-choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}
+.tech-choice-grid button{min-height:3.45rem;padding:.8rem .9rem;border:2px solid #d4dce8;border-radius:.85rem;background:#fff;color:#082c61;font:inherit;font-weight:750;text-align:left;cursor:pointer;transition:border-color .15s ease,background-color .15s ease,transform .15s ease}
+.tech-choice-grid button:hover,.tech-choice-grid button:focus-visible{border-color:#e51b24;background:#fff7f7}
+.tech-choice-grid button:active{transform:scale(.99)}
+.tech-choice-grid button[aria-pressed="true"]{border-color:#e51b24;background:#fff1f2;box-shadow:0 0 0 3px rgba(229,27,36,.1)}
+.tech-choice-grid--two button{text-align:center}
+[data-tech-step="review"] .tech-choice-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.tech-back,.tech-skip{display:block;border:0;background:transparent;color:#163c70;font:inherit;font-weight:750;text-decoration:underline;text-underline-offset:.2em;cursor:pointer;margin:1rem auto 0;padding:.65rem}
+.tech-skip{font-weight:700;color:#4f6075;margin-top:.55rem}
+[data-tech-step="capture"] .field-grid{grid-template-columns:1fr}
+[data-tech-progressive="true"] .appointment-person{display:flex;align-items:center;gap:11px;margin:0 0 18px;padding:11px 13px;border:1px solid #dce5ee;border-radius:13px;background:#f7fafc}
+[data-tech-progressive="true"] .appointment-person img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:0 0 44px}
+[data-tech-progressive="true"] .appointment-person strong,[data-tech-progressive="true"] .appointment-person span{display:block}
+[data-tech-progressive="true"] .appointment-person strong{color:#0d315c;font-size:.94rem}
+[data-tech-progressive="true"] .appointment-person span{margin-top:2px;color:#5b6d81;font-size:.78rem;line-height:1.35}
+@media(max-width:520px){.tech-choice-grid,[data-tech-step="review"] .tech-choice-grid{grid-template-columns:1fr}.tech-choice-grid button{min-height:3.25rem}.tech-choice-step legend{font-size:1.65rem}}
+@media(prefers-reduced-motion:reduce){.tech-choice-grid button,[data-tech-progressive="true"] .tech-progress__track>span{transition:none}}
+@media(forced-colors:active){.tech-choice-grid button[aria-pressed="true"]{outline:3px solid Highlight}[data-tech-progressive="true"] .tech-progress__track{border:1px solid CanvasText}}
