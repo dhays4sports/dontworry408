@@ -1,0 +1,10 @@
+{
+  "release": "SNAPSHOT-JOURNEY-1.0",
+  "status": "certified",
+  "canonical_route": "/snapshot/",
+  "legacy_redirect": "/score/ -> /snapshot/ (301)",
+  "handoff_entry": "snapshot",
+  "d1_migration_required": false,
+  "regression_tests": { "passed": 29, "failed": 0 },
+  "preserved": ["secure_post_handoff", "d1_persistence", "lead_sync", "ringcentral_sms", "consent_evidence", "maintenance_worker", "browser_callback_booking"]
+}

@@ -1,0 +1,11 @@
+{
+  "release": "408FARMERS / 408-TECH-APPOINTMENT-1.0.1",
+  "status": "certified",
+  "sequence": ["technology_role", "housing", "review_track", "review_reason", "first_name_mobile", "coveragefit_booking"],
+  "forbidden_prebooking_fields": ["date_of_birth", "full_legal_name", "full_address", "driver_license", "vin", "policy_upload", "detailed_household_information"],
+  "lead_delivery": ["coveragefit_d1", "formspree_notification"],
+  "primary_completion_path": "coveragefit_appointment",
+  "direct_contact_options": ["text_dylan", "call_dylan"],
+  "d1_migration_required": false,
+  "regression_tests": {"passed": 30, "failed": 0}
+}

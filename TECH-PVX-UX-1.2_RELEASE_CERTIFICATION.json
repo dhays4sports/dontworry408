@@ -1,0 +1,18 @@
+{
+  "release": "TECH-PVX-UX-1.2",
+  "status": "PASS",
+  "tests": {
+    "command": "node --test tests/*.test.cjs",
+    "passed": 27,
+    "failed": 0
+  },
+  "verified": {
+    "continue_snapshot_wording_present": true,
+    "talk_with_dylan_wording_present": true,
+    "callback_text_and_call_choices_preserved": true,
+    "new_submission_creates_new_bootstrap_scope": true,
+    "same_submission_retry_remains_idempotent": true,
+    "secure_post_handoff_preserved": true,
+    "lead_and_consent_fields_preserved": true
+  }
+}

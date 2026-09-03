@@ -1,0 +1,21 @@
+{
+  "release": "TECH-PVX-UX-1.1",
+  "status": "PASS",
+  "tests": {
+    "command": "node --test tests/*.test.cjs",
+    "passed": 27,
+    "failed": 0
+  },
+  "verified": {
+    "all_applicable_routes_load_callback_scheduler": true,
+    "coveragefit_finish_offers_exact_callback_text_and_call": true,
+    "home_snapshot_exit_offers_exact_callback_text_and_call": true,
+    "tech_submission_requires_explicit_coveragefit_choice": true,
+    "life_and_post_lead_callback_paths_preserved": true,
+    "new_submission_creates_new_bootstrap_scope": true,
+    "same_submission_retry_remains_idempotent": true,
+    "secure_post_handoff_preserved": true,
+    "lead_and_consent_fields_preserved": true,
+    "coveragefit_receiver_unchanged": "v3.20.216"
+  }
+}

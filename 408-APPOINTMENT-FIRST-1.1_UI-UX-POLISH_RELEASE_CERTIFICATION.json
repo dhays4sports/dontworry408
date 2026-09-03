@@ -1,0 +1,37 @@
+{
+  "release": "408-APPOINTMENT-FIRST-1.1_UI-UX-POLISH",
+  "status": "certified",
+  "d1_migration_required": false,
+  "public_entries": [
+    "/",
+    "/home/",
+    "/home/qr/.../",
+    "/auto-bundle/",
+    "/buyer/",
+    "/healthcare/",
+    "/teachers/",
+    "/engineers/",
+    "/life/",
+    "/tech/",
+    "/snapshot/",
+    "/contact/"
+  ],
+  "preserved": [
+    "D1 and Agent Workspace lead delivery",
+    "same-record appointment updates",
+    "Formspree notification fallback",
+    "RingCentral notifications and appointment messaging",
+    "secure CoverageFit handoff",
+    "consent evidence",
+    "Text Dylan and Call Dylan choices"
+  ],
+  "verification": {
+    "regression_tests": 40,
+    "public_links_and_assets_checked": 714,
+    "broken_local_targets": 0,
+    "duplicate_id_pages": 0,
+    "images_missing_alt": 0,
+    "d1_sql_required": false,
+    "quote_level_pii_before_booking": false
+  }
+}

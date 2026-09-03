@@ -1,0 +1,11 @@
+{
+  "release": "408FARMERS / DUAL-LEAD-DELIVERY-1.0",
+  "status": "certified",
+  "lead_operations_build": "408-LEAD-OPS-1.2",
+  "delivery": ["coveragefit_d1", "formspree_notification"],
+  "browser_formspree_fallback": true,
+  "d1_migration_required": false,
+  "regression_tests": {"passed": 30, "failed": 0},
+  "formspree_qa_checks": {"passed": 20, "failed": 0},
+  "preserved": ["secure_coveragefit_handoff", "consent_evidence", "agencyzoom_projection", "callback_booking", "ringcentral_sms"]
+}

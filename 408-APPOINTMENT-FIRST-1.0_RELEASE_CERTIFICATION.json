@@ -1,0 +1,31 @@
+{
+  "release": "408-APPOINTMENT-FIRST-1.0",
+  "status": "certified",
+  "d1_migration_required": false,
+  "public_entries": [
+    "/home/",
+    "/home/qr/.../",
+    "/auto-bundle/",
+    "/buyer/",
+    "/healthcare/",
+    "/teachers/",
+    "/engineers/",
+    "/life/",
+    "/tech/",
+    "/snapshot/"
+  ],
+  "preserved": [
+    "D1 and Agent Workspace lead delivery",
+    "Formspree notification fallback",
+    "secure CoverageFit handoff",
+    "consent evidence",
+    "Text Dylan and Call Dylan choices"
+  ],
+  "verification": {
+    "regression_tests": 36,
+    "links_checked": 911,
+    "d1_sql_required": false,
+    "quote_level_pii_before_booking": false,
+    "buyer_street_address_before_booking": false
+  }
+}
